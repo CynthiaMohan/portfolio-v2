@@ -57,3 +57,14 @@ nav{
         opacity: 1;
     }
 }
+
+.title{
+    text-align: center;
+    color: blanchedalmond;
+}
+.project{
+    
+    margin-top: 10px;
+    border:2px solid blanchedalmond;
+   
+}
