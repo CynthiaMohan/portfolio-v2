@@ -1,0 +1,59 @@
+.cLogo{
+    width:100px
+}
+.container{
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+    box-shadow:3px 3px #537895;
+}
+#prof-pic{
+    width: 100px;
+    height: auto;
+}
+nav{
+    color: wheat;
+}
+.about{
+    text-align: center;
+    color: wheat;
+    /* width:100%; */
+    background-image: linear-gradient();
+    padding: 20px;
+    background-size: cover;
+    /* background-color #7cffcb;
+    background-image: linear-gradient(315deg, #7cffcb 0%, #74f2ce 74%);; */
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+}
+.about h2{
+    border-bottom: 1px solid wheat;
+    font-style: italic;
+
+}
+.motto{
+    font-size: 20px;
+    font-style: italic;
+}
+.type{
+    /* color: black; */
+    position: relative;
+    margin-left: 10px;
+}
+.type::after{
+    content: "";
+    position: relative;
+    width: 1px;
+    height: 100%;
+    right: -5px;
+    border-right: 2px solid wheat;
+    animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
