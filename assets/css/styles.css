@@ -26,7 +26,7 @@ nav{
     background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
 }
 .about h2{
-    border-bottom: 1px solid wheat;
+    /* border-bottom: 1px solid wheat; */
     font-style: italic;
 
 }
@@ -60,7 +60,10 @@ nav{
 
 .title{
     text-align: center;
-    color: blanchedalmond;
+    color: #899aa8;
+}
+.featured-project{
+
 }
 .project{
     
@@ -68,3 +71,14 @@ nav{
     border:2px solid blanchedalmond;
    
 }
+
+.contact-tabs{
+    border: 2px solid white;
+    background: white;
+    border-radius: 15%;
+
+}
+
+.contact-tabs i{
+    height: 30px;
+} 
